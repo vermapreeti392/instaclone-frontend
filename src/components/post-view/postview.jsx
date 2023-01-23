@@ -26,7 +26,8 @@ const LandingPage = () => {
         return (
             <>
                 <center>
-                    <img src={require('../../images/load.gif')} alt="load" />
+                    <img src={require('../../images/load.gif')} alt="load" style={{height:"20%", width:"20%", marginTop:"50px"}} />
+                    <h1 style={{color:"purple"}}>Loading....</h1>
                 </center>
             </>
         )
